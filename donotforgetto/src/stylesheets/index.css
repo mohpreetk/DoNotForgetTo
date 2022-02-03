@@ -1,0 +1,96 @@
+/* Responsive Design Rules. From W3Schools.com*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 11px;
+    }
+
+    /* .App-header {
+        flex-direction: column-reverse !important;
+    }
+    
+    .header-img > img {
+        height: 30vh !important;
+    } */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    html {
+        font-size: 13px;
+    }
+
+    .header-img > img {
+        height: 40vh !important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    html {
+        font-size: 17px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Html */ 
+html {
+    scroll-padding-top: 3rem;
+    scroll-behavior: smooth;
+    max-width: 100%; 
+    overflow-x: hidden;
+}
+
+/* Body */
+body {
+    font-family: 'PT Sans', sans-serif;
+    height: 100%;
+}
+
+/* Headings */
+h1 {
+    font-size: 2rem;
+    /* font-family: 'Berkshire Swash', cursive; */
+}
+
+h2 {
+    font-size: 1.8rem;
+    /* font-family: 'Emilys Candy', cursive; */
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+small {
+    font-size: 1rem;
+}
+
+/* 
+strong {
+     font-family: 'Courgette', cursive; 
+}*/
