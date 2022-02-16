@@ -1,0 +1,44 @@
+/* H2 */
+
+.home-section {
+    text-align: center;
+}
+
+.home-section>p {
+    margin: 2rem 0.5rem;
+    color: #000520;
+}
+
+.home-section>p:hover {
+    text-shadow: 0 0 10px #fff, 0 0 20px green, 0 0 30px green, 0 0 40px green, 0 0 50px green, 0 0 60px green;
+}
+
+.getStarted {
+    background: linear-gradient(to left, rgb(43, 131, 21) 50%, #ffffff 50%) right;
+    color: #ffffff;
+    background-size: 200%;
+    padding: 1%;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.getStarted:hover {
+    border-style: inset;
+    border-color: rgb(43, 131, 21);
+    color: rgb(43, 131, 21);
+    background-position: left;
+    transition: all 0.2s linear;
+    background-color: #ffffff;
+}
+
+.getStartedLink {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.getStarted:hover .getStartedLink {
+    color: rgb(43, 131, 21);
+    transition: all 0.2s linear;
+}

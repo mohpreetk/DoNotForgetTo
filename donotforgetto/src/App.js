@@ -1,23 +1,22 @@
-import "./stylesheets/App.css";
-import Header from "./Components/Header";
-import Main from "./Components/Main";
-import Footer from "./Components/Footer";
+import Layout from "./Components/Layout";
+import Home from "./Components/Home";
+import About from "./Components/About";
+import Reminders from "./Components/Reminders";
+import Error from "./Components/Error";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Header />
-      </header>
-
-      <main className="App-main">
-        <Main />
-      </main>
-
-      <footer className="App-footer">
-        <Footer />
-      </footer>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="reminders" element={<Reminders />} />
+          <Route path="*" element={<Error />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

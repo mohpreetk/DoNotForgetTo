@@ -2,14 +2,24 @@
   text-align: center;
 } */
 
-.App-header {
+.App {
   background-image: linear-gradient(to right, #4e54c8, #8f94fb, #ad5389);
-  height: 80vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  min-width: 98%;
   justify-content: center;
   color: white;
   font-weight: 400;
   padding: 1vh 1vw;
+}
+
+.App-header {
+  position: fixed;
+  top: 0;
+}
+
+.App-footer {
+  position: fixed;
+  bottom: 0;
 }
