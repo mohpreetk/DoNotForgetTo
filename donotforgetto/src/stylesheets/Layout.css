@@ -17,9 +17,20 @@
 .App-header {
   position: fixed;
   top: 0;
+  width: 100%;
+}
+
+.forDocFlow {
+  z-index: -1000;
+  position: relative;
+}
+
+.App-main {
+  width: 100%;
 }
 
 .App-footer {
   position: fixed;
   bottom: 0;
+  width: 100%;
 }

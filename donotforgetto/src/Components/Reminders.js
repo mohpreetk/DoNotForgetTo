@@ -1,4 +1,4 @@
-import "../stylesheets/About.css";
+import "../stylesheets/Reminders.module.css";
 
 function Reminders() {
   return (

@@ -1,4 +1,4 @@
-import "../stylesheets/About.css";
+// import "../stylesheets/About.css";
 
 function Error() {
   return (

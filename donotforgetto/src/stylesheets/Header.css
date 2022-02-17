@@ -3,12 +3,11 @@
 }
 
 /* Nav Bar and List */
+
 nav {
     display: flex;
-    position: fixed;
     min-width: 98%;
     min-height: 4rem;
-    top: 0;
     margin: auto;
     background-image: linear-gradient(to right, #4e54c8, #8f94fb, #ad5389);
     padding: 1vh 1vw;
