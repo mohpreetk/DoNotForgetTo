@@ -27,7 +27,7 @@ function About() {
 
   return (
     <>
-      <section className={responsive}>
+      <section className={responsive}  id="about">
         <div className={styles.left}>
           <h2 className={styles.lefth2}>ABOUT</h2>
           <h2 className={styles.lefth2}>US</h2>

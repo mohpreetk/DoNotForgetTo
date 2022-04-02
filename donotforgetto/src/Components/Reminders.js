@@ -3,7 +3,7 @@ import "../stylesheets/Reminders.module.css";
 function Reminders() {
   return (
     <>
-      <section className="home-section">
+      <section className="reminders-section" id="reminders">
         
       </section>
     </>

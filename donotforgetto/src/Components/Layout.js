@@ -1,10 +1,10 @@
 import "../stylesheets/Layout.css";
-import { Outlet } from "react-router-dom";
+// import { Outlet } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
-// import Home from "./Home";
-// import About from "./About";
-// import Reminders from "./Reminders";
+import Home from "./Home";
+import About from "./About";
+import Reminders from "./Reminders";
 
 function Layout() {
   return (
@@ -18,9 +18,9 @@ function Layout() {
         </header>
 
         <main className="App-main">
-          <Outlet />
-          <Outlet />
-          <Outlet />
+          <Home/>
+          <About/>
+          <Reminders/>
         </main>
 
         <footer className="App-footer">
